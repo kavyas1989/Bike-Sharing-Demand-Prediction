@@ -40,4 +40,46 @@ Our objective here,is to predict the Count of Rental bikes required on an hourly
 - Created new column for day of mweek from date column.
 
 ### Feature Encoding 
-- did one hot encoding to convert numerical into categorical columns for better analysis.
+- did one hot encoding to convert numerical into categorical columns for better analysis
+
+# Extrapolarotary Data Analysis
+
+To gain insights from the data. We plot various charts like bar graph, histogram, heat map, line graph etc. for univariate and bivariate analysis. This process helped us figuring out various aspects and relationships among the dependent and the independent variables.
+Observation of our EDA as follows:
+
+- Peak demand of bike sharing was observed during summer and lowest in Winter season
+- Our peak commuting hours was 7 A.M. - 9 A.M. in morning and 5 P.M. - 7 P.M. in evening
+- Our bike sharing demand was higher during weekend than weekdays.
+- On holidays demand of bike sharing was lower than non-holidays
+- Dew point temerature and temperature found to be highly correlated.
+
+# Model Building 
+
+As we have to predict the count of rented bikes in our problem, so this is a regression problem. Based on the problem statement which is basically to predict the demand of rented bikes for each hour, so I have decided to develop predictive models using following algorithms and then compared ther performance to use most appropriate model .
+
+- Linear Regression
+- Ridge and Lasso regression
+- Decision Tree Regressor
+- Random Forest Regreesor
+- Gradient Boosting
+- Elastic Net
+
+# Evaluation Metrics 
+
+To evaluate the models we used MSE(Minimum Squared Error) and Adjusted R2 score 
+and we need to use the fact that smaller the value of MSE is and higher the value of Adjusted R2 score better our model is .
+
+calculating MSE and Adjusted R2-score for all regression algorithms :
+- Linear regression : MSE = 5.92 , Adjusted R2 score : 0.77
+- Ridge : MSE = 5.92 , Adjusted R2 score : 0.79
+- Lasso : MSE = 5.92 , Adjusted R2 score : 0.79
+- Decision Tree : MSE  = 5.92 , Adjusted R2 score : 0.79 
+- Random Forest Regression : MSE = 4.59  , Adjusted R2 score : 0.89 
+- Gradient Boosting : MSE = 3.62 , Adjusted R2 score : 0.94
+
+# Conclusion 
+
+As we have observed that we are getting our least value of MSE and highest value of Adjutsed R2 score by using Random Forest and Gradient Boosting.
+So we can use either of these 2 algorithms for model building  . 
+                      
+

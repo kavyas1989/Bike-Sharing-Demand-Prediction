@@ -66,20 +66,20 @@ As we have to predict the count of rented bikes in our problem, so this is a reg
 
 # Evaluation Metrics 
 
-To evaluate the models we used MSE(Minimum Squared Error) and Adjusted R2 score 
+To evaluate the models we used MAE(Mean Absolute Error) and Adjusted R2 score 
 and we need to use the fact that smaller the value of MSE is and higher the value of Adjusted R2 score better our model is .
 
 calculating MSE and Adjusted R2-score for all regression algorithms :
-- Linear regression : MSE = 5.92 , Adjusted R2 score : 0.77
-- Ridge : MSE = 5.92 , Adjusted R2 score : 0.79
-- Lasso : MSE = 5.92 , Adjusted R2 score : 0.79
-- Decision Tree : MSE  = 5.92 , Adjusted R2 score : 0.79 
-- Random Forest Regression : MSE = 4.59  , Adjusted R2 score : 0.89 
-- Gradient Boosting : MSE = 3.62 , Adjusted R2 score : 0.94
+- Linear regression : MAE = 4.53 , Adjusted R2 score : 0.77
+- Ridge : MSE = 4.53 , Adjusted R2 score : 0.79
+- Lasso : MSE = 4.69 , Adjusted R2 score : 0.79
+- Decision Tree : MSE  = 3.88 , Adjusted R2 score : 0.79 
+- Random Forest Regression : MSE = 3.22 , Adjusted R2 score : 0.89 
+- Gradient Boosting : MSE = 2.36 , Adjusted R2 score : 0.94
 
 # Conclusion 
 
-As we have observed that we are getting our least value of MSE and highest value of Adjutsed R2 score by using Random Forest and Gradient Boosting.
+As we have observed that we are getting our least value of MAE and highest value of Adjutsed R2 score by using Random Forest and Gradient Boosting.
 So we can use either of these 2 algorithms for model building  . 
                       
 

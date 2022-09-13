@@ -22,3 +22,5 @@ Our objective here,is to predict the Count of Rental bikes required on an hourly
 - Functional Day : Yes/No
 - Rented Bike count : Count of bikes rented at each hour (Dependent variable)
 
+-Total number of rows in data : 8760
+-Total number of columns : 14

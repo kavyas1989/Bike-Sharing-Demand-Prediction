@@ -26,4 +26,4 @@ Our objective here,is to predict the Count of Rental bikes required on an hourly
 - Total number of columns : 14
 
 # Data Cleaning and Feature Engineering
- ### (1) Removing Duplicate Rows
+### (1) Removing Duplicate Rows

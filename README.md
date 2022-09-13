@@ -27,3 +27,17 @@ Our objective here,is to predict the Count of Rental bikes required on an hourly
 
 # Data Cleaning and Feature Engineering
 ### (1) Removing Duplicate Rows
+- No duplicate rows were present in dataset.
+
+### Hanlding Null Values
+- No null values present in the Dataset 
+
+### Converting columns to appropriate data types
+- Changed datatype of Date to date type.
+
+### Creating New Columns 
+- Created new column for month from date column.
+- Created new column for day of mweek from date column.
+
+### Feature Encoding 
+- did one hot encoding to convert numerical into categorical columns for better analysis.

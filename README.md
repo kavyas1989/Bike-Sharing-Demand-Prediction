@@ -1,4 +1,4 @@
-# Bike-Sharing-Demand-Prediction
+# Bike Sharing Demand Prediction
 
 # Problem Description 
 Public rental bike sharing system has been gaining popularity in the recent times.Currently,this system has been introduced in many major cities for enhancement of mobility comfort.It is also a great step towards environmental sustainability and social welfare.
